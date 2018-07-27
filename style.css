@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 200px;
+}
+.flex-container {
+  display: flex;
+}
+.flex-item {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
